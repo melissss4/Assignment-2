@@ -1,8 +1,9 @@
 # Assignment-2
 
-Idea for coding exercise:
-
 Current Sketch: https://melissss4.github.io/Assignment-2/ 
+
+
+Idea for coding exercise:
 
 Make buttons that look like CD-rom’s and when pushed they go to the live video function that distort your face, plays on the fact that Databases are like a picture book, but with new algorithms. Like an homage to original database systems and Olia’s work that focuses on how databases now follow a new approach that is fragmented and nonlinear. 
 
