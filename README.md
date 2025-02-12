@@ -10,6 +10,10 @@ Make buttons that look like CD-rom’s and when pushed they go to the live video
 
 __________________
 
+
+Coding process:
+
+
 Getting started on this code I knew I would have to use the loadImg function, the button function, the code I used for the live video workshop, the ball systems, and the RiTa library to call upon rhyme words to add to my random poem. I wanted to make sure I included the random poem and the ball system on the live video because I wanted to play on the idea of fragments and how these stem from non-linearity. 
 
 What I knew would be challenging was making the image of CD’s into a button, as I have never done this before. I knew how to call images, and how to make shapes buttons, but not how to merge the two. I decided to go to the P5.js library to find some help. First I went to the createImg page. 
