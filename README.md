@@ -34,3 +34,37 @@ I realised I would need to add a button or some text that says to click the imag
 
 
 
+I also wanted to add in another feature that would show the cloud based way of storing code, so I added in a cloud button, I will work on finding out what to add onto that. 
+I came back to this after developing my code more and this was the outcome:
+
+
+![Screen Shot 2025-02-14 at 12 24 19 AM](https://github.com/user-attachments/assets/17693845-702c-4f21-901d-46e79930286d)
+
+
+I wanted to make sure that the add poem button and the input box only showed up when the cd’s are pushed, so I added this to my code:
+
+
+![Screen Shot 2025-02-14 at 12 24 46 AM](https://github.com/user-attachments/assets/ff54ec94-ecb2-4e39-b6d7-d35eba65df1e)
+
+
+ I had an idea to make the cloud structure more interactive so that it related back to Lev Manovich’s Database as Symbolic Form (chapter 2, 2007) that speaks about cloud based systems as interactive and easy to change and update. I wanted to make it so that you could move things around the screen and change their order. I wanted to also integrate back Olia Lialina’s work Online Newspapers (2004) so I wanted to make it tie in with her gif style images. I liked the idea of a diary, and the fragmented, stream of consciousness style that comes with writing in a diary. So I wanted to make it so that when words are entered into the input box it turns the canvas into a diary entry. I wanted to make it look like a page of a diary, with sparkly stickers (inspired by Lialina’s sparkly gifs in Online Newspapers (2004) )
+
+I added the book to the canvas, I made it so that when the image of the cloud was pushed, the book showed up. I will use this as my base for adding in the rest of the interactive features. 
+
+I also added in the hide function using this p5.js library https://p5js.org/reference/p5.Element/hide/
+
+![Screen Shot 2025-02-14 at 12 25 21 AM](https://github.com/user-attachments/assets/920a4d94-f34b-4847-b9cd-f61686303958)
+
+
+Moving onto adding in Gifs to my diary entry page I used this website to help me learn how to do that on p5.js https://stackoverflow.com/questions/56018372/adding-a-gif-to-a-p5-js-artwork and this https://editor.p5js.org/kjhollen/sketches/S1bVzeF8Z I used this website to download my gifs https://giphy.com/stickers/grandma-old-lady-rifrafgiraffe-H3HTvs2zDmAfKJmOoR
+
+
+![Screen Shot 2025-02-14 at 12 26 15 AM](https://github.com/user-attachments/assets/73fc10a2-1394-4d51-bb3f-51b96f7146cd)
+
+
+I ended up having one of my gifs turn out squashed so I needed to make sure I fixed the aspect ratio. I used the ‘object-fit’ and the ‘contain’ sizing for the gifs. I used this website to help me https://stackoverflow.com/questions/37127384/why-isnt-object-fit-working-in-flexbox
+
+![Screen Shot 2025-02-14 at 12 26 46 AM](https://github.com/user-attachments/assets/aa64e0d0-82f4-4498-99aa-502660ddd6b2)
+
+
+
