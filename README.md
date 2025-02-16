@@ -67,4 +67,12 @@ I ended up having one of my gifs turn out squashed so I needed to make sure I fi
 ![Screen Shot 2025-02-14 at 12 26 46 AM](https://github.com/user-attachments/assets/aa64e0d0-82f4-4498-99aa-502660ddd6b2)
 
 
+Making the second text input function, I wanted it to be different to the RiTa rhyme function, I wanted the inputted words to show up randomly on the page like a fragmented diary entry, to do this it was easy enough as I just needed to leave out the RiTa functions, but I needed to make sure that the text did not get too small or too big, I wanted to make sure it looked like words on a page, so I made sure I could change the text size is needed. 
+
+
+![Screen Shot 2025-02-16 at 9 53 07 PM](https://github.com/user-attachments/assets/651ab2cb-8d70-4af9-86d9-1ae5b36c4fde)
+
+
+I was happy with the fact that I was able to produce a code that showed the theme of non-linear storylines through two separate text functions. One using a RiTa rhyme function that changed words inputted, and one that randomly distributed the words inputted across a page. Both the webcam version of the code and the diary screen of the code represent the way that the viewer sees themselves, one as a fragmented image on a webcam, and one with their inner thoughts fragmented and strewn across the entry of a diary page. The RiTa text function plays on the unreliability of words we may speak and how they are interpreted by others/ seen by others (hence why we are looking at an image of a person on a webcam as these words are being changed on screen). And the journal entry plays on how our thoughts and feelings can be disjointed and fragmented when expressed. 
+
 
