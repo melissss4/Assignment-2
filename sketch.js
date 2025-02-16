@@ -189,7 +189,7 @@ function getTextSize(poemText, maxWidth, maxHeight, minSize, maxSize) {
   let textSizeToFit = maxSize;
   let testTextWidth = textWidth(poemText);
   
-  while (testTextWidth > maxWidth || textSizeToFit > minSize) {
+  while (testTextWidth > maxWidth && textSizeToFit > minSize) {
     textSizeToFit--;
     testTextWidth = textWidth(poemText);
   }
@@ -212,7 +212,7 @@ function displayTextOnImage(inputText, x, y, w, h) {
   // Adjust text size and position
   let maxWidth = w - 20;
   let maxHeight = h - 100;
-  let textSizeToFit = getTextSize(inputText, maxWidth, maxHeight, 8, 20);
+  let textSizeToFit = getTextSize(inputText, maxWidth, maxHeight, 8, 15);
 
   fill(0);
   textSize(textSizeToFit);
