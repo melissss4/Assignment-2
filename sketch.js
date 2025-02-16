@@ -75,6 +75,8 @@ function setup() {
   gifSticker2.position(100, 150);
   gifSticker2.size(300, 50);
   gifSticker2.style('object-fit', 'contain');
+  
+  //if i want the stickers different sizes/to be a bit squished then change
 
   gifSticker1.hide();
   gifSticker2.hide();
@@ -104,6 +106,8 @@ function hideUIAndShowClouds() {
   gifSticker1.show();
   gifSticker2.show();
 
+  // take out gif 4, 5 and 6 bc it looks too crouded and is messing up ball system for some reason: done
+  
   if (webcam) {
     webcam.remove();
   }
@@ -185,6 +189,8 @@ function writePoem() {
     
 }
 
+//pooy try change || to && on 194, will make text size easier to change: done
+
 function getTextSize(poemText, maxWidth, maxHeight, minSize, maxSize) {
   let textSizeToFit = maxSize;
   let testTextWidth = textWidth(poemText);
@@ -209,7 +215,6 @@ function newJournalEntry() {
 }
 
 function displayTextOnImage(inputText, x, y, w, h) {
-  // Adjust text size and position
   let maxWidth = w - 20;
   let maxHeight = h - 100;
   let textSizeToFit = getTextSize(inputText, maxWidth, maxHeight, 8, 15);
